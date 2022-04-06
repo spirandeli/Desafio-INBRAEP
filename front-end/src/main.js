@@ -5,7 +5,6 @@ import VueRouter from 'vue-router'
 import TarefasComponent from './pages/tarefas/TarefasComponent.vue'
 import HomeComponent from './pages/home/HomeComponent.vue'
 
-
 Vue.config.productionTip = false
 Vue.use(VueRouter)
 
@@ -17,7 +16,6 @@ const routes = [
 const router = new VueRouter({
   routes, 
 })
-
 
 
 

@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-   <router-view></router-view>
-   
-    
+   <router-link class="router-link" to ="/">Home</router-link><br>
+   <router-link class="router-link" to ="/tarefas">Tarefas</router-link>
+    <router-view></router-view>
   </div>
 </template>
 
@@ -18,5 +18,7 @@ export default {
 </script>
 
 <style>
-
+.router-link{
+  margin-bottom: 20px;
+}
 </style>
